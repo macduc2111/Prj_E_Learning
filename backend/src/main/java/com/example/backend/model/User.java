@@ -1,5 +1,4 @@
 package com.example.backend.model;
-
 import jakarta.persistence.*;
 import java.util.Date;
 
@@ -167,4 +166,5 @@ public class User {
     public void setCertification(String certification) {
         this.certification = certification;
     }
+
 }

@@ -1,3 +1,4 @@
+
 package com.example.backend.repository.repo;
 
 import com.example.backend.model.User;
@@ -39,4 +40,5 @@ public interface UserRepository extends JpaRepository<User, Integer> {
                            @Param("statusCode") String statusCode);
 
 // API CẬP NHẬT
+
 }
